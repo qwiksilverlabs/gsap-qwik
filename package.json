@@ -1,0 +1,67 @@
+{
+	"name": "gsap-qwik",
+	"version": "1.0.0",
+	"description": "A hook for using GSAP in Qwik.",
+	"keywords": [
+		"gsap",
+		"qwik"
+	],
+	"homepage": "https://github.com/qwiksilverlabs/gsap-qwik#readme",
+	"bugs": {
+		"url": "https://github.com/qwiksilverlabs/gsap-qwik/issues"
+	},
+	"license": "MIT",
+	"author": "Toby Nguyen <hi@tobynguyen.net>",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/qwiksilverlabs/gsap-qwik.git"
+	},
+	"files": [
+		"dist"
+	],
+	"type": "module",
+	"sideEffects": false,
+	"exports": {
+		".": {
+			"import": "./dist/index.qwik.mjs",
+			"types": "./dist/index.d.ts"
+		},
+		"./package.json": "./package.json"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"scripts": {
+		"build": "vp pack",
+		"dev": "vp pack --watch",
+		"test": "vp test",
+		"test:ci": "vp test --browser.headless",
+		"check": "vp check",
+		"prepublishOnly": "vp run build",
+		"prepare": "vp config",
+		"up": "taze",
+		"bump": "bumpp",
+		"playground": "vpr playground#dev"
+	},
+	"devDependencies": {
+		"@builder.io/qwik": "catalog:dev",
+		"@types/node": "catalog:types",
+		"@typescript/native-preview": "catalog:types",
+		"bumpp": "catalog:scripts",
+		"gsap": "catalog:dev",
+		"playwright": "catalog:dev",
+		"taze": "catalog:scripts",
+		"typescript": "catalog:types",
+		"vite-plus": "catalog:build",
+		"vitest-browser-qwik": "catalog:dev"
+	},
+	"peerDependencies": {
+		"@builder.io/qwik": "catalog:dev",
+		"gsap": "catalog:dev"
+	},
+	"engines": {
+		"node": ">=24"
+	},
+	"packageManager": "pnpm@11.1.2",
+	"qwik": "./dist/index.qwik.mjs"
+}

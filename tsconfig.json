@@ -1,0 +1,27 @@
+{
+	"compilerOptions": {
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"target": "esnext",
+		"verbatimModuleSyntax": true,
+		"moduleDetection": "force",
+		"resolveJsonModule": true,
+		"module": "esnext",
+		"moduleResolution": "bundler",
+		"lib": ["es2023", "DOM"],
+		"types": ["node"],
+		"strict": true,
+		"declaration": true,
+		"isolatedDeclarations": true,
+		"isolatedModules": true,
+		"noEmit": true,
+		"allowImportingTsExtensions": true,
+
+		"jsx": "react-jsx",
+		"jsxImportSource": "@builder.io/qwik",
+
+		"paths": {
+			"@/*": ["./src/*"]
+		}
+	}
+}

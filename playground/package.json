@@ -1,0 +1,17 @@
+{
+	"name": "playground",
+	"type": "module",
+	"scripts": {
+		"dev": "vp dev"
+	},
+	"dependencies": {
+		"@builder.io/qwik": "catalog:dev",
+		"gsap": "catalog:dev",
+		"gsap-qwik": "workspace:"
+	},
+	"devDependencies": {
+		"@types/node": "catalog:types",
+		"typescript": "catalog:types",
+		"vite-plus": "catalog:build"
+	}
+}
