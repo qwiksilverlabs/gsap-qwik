@@ -44,7 +44,7 @@ jobs:
       - run: vp install
 
       - name: Install Playwright Browsers
-        run: vpx playwright install --with-deps
+        run: npx playwright install --with-deps
 
       - run: vp pack
       - run: vp check
