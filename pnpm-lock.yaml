@@ -57,6 +57,9 @@ importers:
       '@typescript/native-preview':
         specifier: catalog:types
         version: 7.0.0-dev.20260509.2
+      actionspack:
+        specifier: ^0.1.5
+        version: 0.1.5
       bumpp:
         specifier: catalog:scripts
         version: 11.1.0
@@ -102,6 +105,14 @@ importers:
         version: 0.1.22(@types/node@25.9.1)(jiti@2.7.0)(typescript@6.0.3)(vite@8.0.13(@types/node@25.9.1)(jiti@2.7.0)(yaml@2.9.0))(yaml@2.9.0)
 
 packages:
+
+  '@actions/expressions@0.3.57':
+    resolution: {integrity: sha512-9i38lcz1wsjLYagAMg0wFRf9859oBB2sLjmVjxXHNMzHoovDdxI4xeoWCRrsaUKgKFkffbdA3MiMAfvlXjX1ig==}
+    engines: {node: '>= 20'}
+
+  '@actions/workflow-parser@0.3.57':
+    resolution: {integrity: sha512-+PXG49BkEXpZfbqiWis9AjG94ygmqr7JD/0bByPG4ZCGLi2ZlYudfB/7iaCItV9yTqXMuC9tDg5AwM0I1n2Mqg==}
+    engines: {node: '>= 20'}
 
   '@antfu/ni@30.1.0':
     resolution: {integrity: sha512-3VuAbPjgY52rQNn4wABaXMhBU2Oq91uy6L8nX49eJ35OLI68CyckGU+HZxcaHix4ymuGM2nFL1D6sLpgODK5xw==}
@@ -1115,6 +1126,11 @@ packages:
     cpu: [x64]
     os: [win32]
 
+  actionspack@0.1.5:
+    resolution: {integrity: sha512-iREZRxgkghUOKNVeQhO5r7/u+Vn482/yJbfIvpaULgls9SERLtzWKGHV4IAJz2PKkwrNx1TPi0SPqEdb/OGeVA==}
+    engines: {node: '>=22.18.0'}
+    hasBin: true
+
   args-tokenizer@0.3.0:
     resolution: {integrity: sha512-xXAd7G2Mll5W8uo37GETpQ2VrE84M181Z7ugHFGQnJZ50M2mbOv0osSZ9VsSgPfJQ+LVG0prSi0th+ELMsno7Q==}
 
@@ -1137,6 +1153,10 @@ packages:
 
   convert-source-map@2.0.0:
     resolution: {integrity: sha512-Kvp459HrV2FEJ1CAsi1Ku+MY3kasH19TFykTz2xWmMeq6bk2NU3XXvfJ+Q61m0xktWwt+1HSYf3JZsTms3aRJg==}
+
+  cronstrue@2.59.0:
+    resolution: {integrity: sha512-YKGmAy84hKH+hHIIER07VCAHf9u0Ldelx1uU6EBxsRPDXIA1m5fsKmJfyC3xBhw6cVC/1i83VdbL4PvepTrt8A==}
+    hasBin: true
 
   csstype@3.2.3:
     resolution: {integrity: sha512-z1HGKcYy2xA8AGQfwrn0PAy+PB7X/GSj3UVJW9qKyn43xWa+gl5nXmU4qqLMRzWVLFC8KusUX8T/0kCiOYpAIQ==}
@@ -1583,6 +1603,14 @@ packages:
     hasBin: true
 
 snapshots:
+
+  '@actions/expressions@0.3.57': {}
+
+  '@actions/workflow-parser@0.3.57':
+    dependencies:
+      '@actions/expressions': 0.3.57
+      cronstrue: 2.59.0
+      yaml: 2.9.0
 
   '@antfu/ni@30.1.0':
     dependencies:
@@ -2185,6 +2213,13 @@ snapshots:
   '@voidzero-dev/vite-plus-win32-x64-msvc@0.1.22':
     optional: true
 
+  actionspack@0.1.5:
+    dependencies:
+      '@actions/expressions': 0.3.57
+      '@actions/workflow-parser': 0.3.57
+      cac: 7.0.0
+      yaml: 2.9.0
+
   args-tokenizer@0.3.0: {}
 
   assertion-error@2.0.1: {}
@@ -2206,6 +2241,8 @@ snapshots:
   chai@6.2.2: {}
 
   convert-source-map@2.0.0: {}
+
+  cronstrue@2.59.0: {}
 
   csstype@3.2.3: {}
 

@@ -19,6 +19,9 @@ catalogs:
     bumpp: ^11.1.0
     taze: ^19.13.0
 
+minimumReleaseAgeExclude:
+  - actionspack@0.1.5
+
 overrides:
   vite: 'catalog:build'
   vitest: 'catalog:dev'

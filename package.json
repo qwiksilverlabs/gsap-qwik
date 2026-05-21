@@ -41,12 +41,14 @@
 		"prepare": "vp config",
 		"up": "taze",
 		"bump": "bumpp",
-		"playground": "vpr playground#dev"
+		"playground": "vpr playground#dev",
+		"actionspack": "actionspack"
 	},
 	"devDependencies": {
 		"@builder.io/qwik": "catalog:dev",
 		"@types/node": "catalog:types",
 		"@typescript/native-preview": "catalog:types",
+		"actionspack": "^0.1.5",
 		"bumpp": "catalog:scripts",
 		"gsap": "catalog:dev",
 		"playwright": "catalog:dev",
