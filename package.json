@@ -42,7 +42,8 @@
 		"up": "taze",
 		"bump": "bumpp",
 		"playground": "vpr playground#dev",
-		"actionspack": "actionspack"
+		"actions:pin": "actionspack",
+		"actions:update": "actionspack update"
 	},
 	"devDependencies": {
 		"@builder.io/qwik": "catalog:dev",

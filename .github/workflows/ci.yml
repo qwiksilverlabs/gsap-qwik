@@ -49,7 +49,7 @@ jobs:
       - run: vp install
 
       - name: Install Playwright Browsers
-        run: npx playwright install --with-deps
+        run: vpx playwright install --with-deps
 
       - run: vp pack
 
