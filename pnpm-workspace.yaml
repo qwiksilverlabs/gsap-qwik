@@ -17,10 +17,6 @@ catalogs:
     typescript: ^6.0.3
   scripts:
     bumpp: ^11.1.0
-    taze: ^19.14.1
-
-minimumReleaseAgeExclude:
-  - actionspack@0.1.5
 
 overrides:
   vite: 'catalog:build'
