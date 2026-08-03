@@ -20,8 +20,8 @@ catalogs:
       specifier: ^1.60.0
       version: 1.62.1
     vitest-browser-qwik:
-      specifier: 0.3.8
-      version: 0.3.8
+      specifier: 0.3.11
+      version: 0.3.11
   scripts:
     bumpp:
       specifier: ^12.0.0
@@ -71,7 +71,7 @@ importers:
         version: 0.2.6(@types/node@26.1.2)(@voidzero-dev/vite-plus-core@0.2.7(@types/node@26.1.2)(jiti@2.7.0)(typescript@7.0.2)(yaml@2.9.0))(jiti@2.7.0)(typescript@7.0.2)(yaml@2.9.0)
       vitest-browser-qwik:
         specifier: catalog:dev
-        version: 0.3.8(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@qwik.dev/core@2.0.0-beta.36(@voidzero-dev/vite-plus-core@0.2.7(@types/node@26.1.2)(jiti@2.7.0)(typescript@7.0.2)(yaml@2.9.0))(@voidzero-dev/vite-plus-test@0.1.24(@types/node@26.1.2)(@voidzero-dev/vite-plus-core@0.2.7(@types/node@26.1.2)(jiti@2.7.0)(typescript@7.0.2)(yaml@2.9.0))(jiti@2.7.0)(typescript@7.0.2)(yaml@2.9.0)))(@voidzero-dev/vite-plus-core@0.2.7(@types/node@26.1.2)(jiti@2.7.0)(typescript@7.0.2)(yaml@2.9.0))(@voidzero-dev/vite-plus-test@0.1.24(@types/node@26.1.2)(@voidzero-dev/vite-plus-core@0.2.7(@types/node@26.1.2)(jiti@2.7.0)(typescript@7.0.2)(yaml@2.9.0))(jiti@2.7.0)(typescript@7.0.2)(yaml@2.9.0))
+        version: 0.3.11(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@qwik.dev/core@2.0.0-beta.38(@voidzero-dev/vite-plus-core@0.2.7(@types/node@26.1.2)(jiti@2.7.0)(typescript@7.0.2)(yaml@2.9.0))(@voidzero-dev/vite-plus-test@0.1.24(@types/node@26.1.2)(@voidzero-dev/vite-plus-core@0.2.7(@types/node@26.1.2)(jiti@2.7.0)(typescript@7.0.2)(yaml@2.9.0))(jiti@2.7.0)(typescript@7.0.2)(yaml@2.9.0)))(@voidzero-dev/vite-plus-core@0.2.7(@types/node@26.1.2)(jiti@2.7.0)(typescript@7.0.2)(yaml@2.9.0))(@voidzero-dev/vite-plus-test@0.1.24(@types/node@26.1.2)(@voidzero-dev/vite-plus-core@0.2.7(@types/node@26.1.2)(jiti@2.7.0)(typescript@7.0.2)(yaml@2.9.0))(jiti@2.7.0)(typescript@7.0.2)(yaml@2.9.0))
 
   playground:
     dependencies:
@@ -642,8 +642,8 @@ packages:
   '@quansync/fs@1.0.0':
     resolution: {integrity: sha512-4TJ3DFtlf1L5LDMaM6CanJ/0lckGNtJcMjQ1NAV6zDmA0tEHKZtxNKin8EgPaVX1YzljbxckyT2tJrpQKAtngQ==}
 
-  '@qwik.dev/core@2.0.0-beta.36':
-    resolution: {integrity: sha512-j7+HhecfMSrn97vjELu58PuA9yu+cx0Q/0VIYmfC39mPDP2lnvRvdMTodTa0HEMRuk+SRYP/XKDOXJO0u6VUYA==}
+  '@qwik.dev/core@2.0.0-beta.38':
+    resolution: {integrity: sha512-+tOWhOzHugMnNMoZ1hWSXJpakXvzdZRXlIL92DLjJM0e6EJiQVdVAd59HRazoKhCdyKa8Lhv43VX5synTgEJQQ==}
     engines: {node: ^20.3.0 || >=21.0.0}
     hasBin: true
     peerDependencies:
@@ -1765,10 +1765,10 @@ packages:
       '@vitest/browser-webdriverio':
         optional: true
 
-  vitest-browser-qwik@0.3.8:
-    resolution: {integrity: sha512-huO2dYDDA+j8Zwg0FbDOVdNMsPK+BRG1JRqXuK5flpEY71WNUpM7dy0ZawbOx1zbJ/F3P3AjJRD14IDcDu8vtw==}
+  vitest-browser-qwik@0.3.11:
+    resolution: {integrity: sha512-l/DCwf3aNJYGGsK1z/zJvov24jKC75lMUtzFbGhSKAA/5gvT9nadHgAtZ7cLDik4Vorvum8kvPlKuim/LpD9Fg==}
     peerDependencies:
-      '@qwik.dev/core': '*'
+      '@qwik.dev/core': '>=2.0.0-beta.37'
       vite: '>=6.3.5'
       vitest: ^4.0.18
     peerDependenciesMeta:
@@ -2109,7 +2109,7 @@ snapshots:
     dependencies:
       quansync: 1.0.0
 
-  '@qwik.dev/core@2.0.0-beta.36(@voidzero-dev/vite-plus-core@0.2.7(@types/node@26.1.2)(jiti@2.7.0)(typescript@7.0.2)(yaml@2.9.0))(@voidzero-dev/vite-plus-test@0.1.24(@types/node@26.1.2)(@voidzero-dev/vite-plus-core@0.2.7(@types/node@26.1.2)(jiti@2.7.0)(typescript@7.0.2)(yaml@2.9.0))(jiti@2.7.0)(typescript@7.0.2)(yaml@2.9.0))':
+  '@qwik.dev/core@2.0.0-beta.38(@voidzero-dev/vite-plus-core@0.2.7(@types/node@26.1.2)(jiti@2.7.0)(typescript@7.0.2)(yaml@2.9.0))(@voidzero-dev/vite-plus-test@0.1.24(@types/node@26.1.2)(@voidzero-dev/vite-plus-core@0.2.7(@types/node@26.1.2)(jiti@2.7.0)(typescript@7.0.2)(yaml@2.9.0))(jiti@2.7.0)(typescript@7.0.2)(yaml@2.9.0))':
     dependencies:
       '@qwik.dev/optimizer': 2.1.0-beta.5
       csstype: 3.2.3
@@ -3006,10 +3006,10 @@ snapshots:
       - vite
       - yaml
 
-  vitest-browser-qwik@0.3.8(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@qwik.dev/core@2.0.0-beta.36(@voidzero-dev/vite-plus-core@0.2.7(@types/node@26.1.2)(jiti@2.7.0)(typescript@7.0.2)(yaml@2.9.0))(@voidzero-dev/vite-plus-test@0.1.24(@types/node@26.1.2)(@voidzero-dev/vite-plus-core@0.2.7(@types/node@26.1.2)(jiti@2.7.0)(typescript@7.0.2)(yaml@2.9.0))(jiti@2.7.0)(typescript@7.0.2)(yaml@2.9.0)))(@voidzero-dev/vite-plus-core@0.2.7(@types/node@26.1.2)(jiti@2.7.0)(typescript@7.0.2)(yaml@2.9.0))(@voidzero-dev/vite-plus-test@0.1.24(@types/node@26.1.2)(@voidzero-dev/vite-plus-core@0.2.7(@types/node@26.1.2)(jiti@2.7.0)(typescript@7.0.2)(yaml@2.9.0))(jiti@2.7.0)(typescript@7.0.2)(yaml@2.9.0)):
+  vitest-browser-qwik@0.3.11(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@qwik.dev/core@2.0.0-beta.38(@voidzero-dev/vite-plus-core@0.2.7(@types/node@26.1.2)(jiti@2.7.0)(typescript@7.0.2)(yaml@2.9.0))(@voidzero-dev/vite-plus-test@0.1.24(@types/node@26.1.2)(@voidzero-dev/vite-plus-core@0.2.7(@types/node@26.1.2)(jiti@2.7.0)(typescript@7.0.2)(yaml@2.9.0))(jiti@2.7.0)(typescript@7.0.2)(yaml@2.9.0)))(@voidzero-dev/vite-plus-core@0.2.7(@types/node@26.1.2)(jiti@2.7.0)(typescript@7.0.2)(yaml@2.9.0))(@voidzero-dev/vite-plus-test@0.1.24(@types/node@26.1.2)(@voidzero-dev/vite-plus-core@0.2.7(@types/node@26.1.2)(jiti@2.7.0)(typescript@7.0.2)(yaml@2.9.0))(jiti@2.7.0)(typescript@7.0.2)(yaml@2.9.0)):
     dependencies:
       '@oxc-project/types': 0.95.0
-      '@qwik.dev/core': 2.0.0-beta.36(@voidzero-dev/vite-plus-core@0.2.7(@types/node@26.1.2)(jiti@2.7.0)(typescript@7.0.2)(yaml@2.9.0))(@voidzero-dev/vite-plus-test@0.1.24(@types/node@26.1.2)(@voidzero-dev/vite-plus-core@0.2.7(@types/node@26.1.2)(jiti@2.7.0)(typescript@7.0.2)(yaml@2.9.0))(jiti@2.7.0)(typescript@7.0.2)(yaml@2.9.0))
+      '@qwik.dev/core': 2.0.0-beta.38(@voidzero-dev/vite-plus-core@0.2.7(@types/node@26.1.2)(jiti@2.7.0)(typescript@7.0.2)(yaml@2.9.0))(@voidzero-dev/vite-plus-test@0.1.24(@types/node@26.1.2)(@voidzero-dev/vite-plus-core@0.2.7(@types/node@26.1.2)(jiti@2.7.0)(typescript@7.0.2)(yaml@2.9.0))(jiti@2.7.0)(typescript@7.0.2)(yaml@2.9.0))
       magic-string: 0.30.21
       oxc-parser: 0.95.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)
       oxc-resolver: 11.19.1(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)
