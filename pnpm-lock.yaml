@@ -170,7 +170,7 @@ catalogs:
   dev:
     '@builder.io/qwik':
       specifier: ^1.20.0
-      version: 1.20.0
+      version: 1.20.1
     gsap:
       specifier: ^3.15.0
       version: 3.15.0
@@ -205,7 +205,7 @@ importers:
     devDependencies:
       '@builder.io/qwik':
         specifier: catalog:dev
-        version: 1.20.0(@voidzero-dev/vite-plus-core@1.0.0(@types/node@26.6.4)(jiti@2.7.0)(typescript@7.0.2)(yaml@2.9.0))
+        version: 1.20.1(@voidzero-dev/vite-plus-core@1.0.0(@types/node@26.6.4)(jiti@2.7.0)(typescript@7.0.2)(yaml@2.9.0))
       '@types/node':
         specifier: catalog:types
         version: 26.6.4
@@ -235,7 +235,7 @@ importers:
     dependencies:
       '@builder.io/qwik':
         specifier: catalog:dev
-        version: 1.20.0(@voidzero-dev/vite-plus-core@1.0.0(@types/node@26.6.4)(jiti@2.7.0)(typescript@7.0.2)(yaml@2.9.0))
+        version: 1.20.1(@voidzero-dev/vite-plus-core@1.0.0(@types/node@26.6.4)(jiti@2.7.0)(typescript@7.0.2)(yaml@2.9.0))
       gsap:
         specifier: catalog:dev
         version: 3.15.0
@@ -270,8 +270,8 @@ packages:
   '@blazediff/core@1.10.0':
     resolution: {integrity: sha512-AOQff0zgR7cGsZL+4E7hVkmujoPUpm0J9xzWGWZj5wCjd3gmxESXAPfKyuzs93VdpQNFhHlBhfOjrcZ+XTERtQ==}
 
-  '@builder.io/qwik@1.20.0':
-    resolution: {integrity: sha512-mPnENUgyOGYQW9UNGGeGP67hg8rI/hi4WQ0z/rM3PAgQl3UjfreBxyj1njxvSLAz5nei6yD20/W/eywVIxOCIw==}
+  '@builder.io/qwik@1.20.1':
+    resolution: {integrity: sha512-6iig3OVQEWm0w1icVv1XqpxxNCORqQ9dyxIQSxGoAgI3qjJcBN9C+yALwJdJEPQMF8rH/Rw/rmgKzBiFTUs3pQ==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     hasBin: true
     peerDependencies:
@@ -1949,7 +1949,7 @@ snapshots:
 
   '@blazediff/core@1.10.0': {}
 
-  '@builder.io/qwik@1.20.0(@voidzero-dev/vite-plus-core@1.0.0(@types/node@26.6.4)(jiti@2.7.0)(typescript@7.0.2)(yaml@2.9.0))':
+  '@builder.io/qwik@1.20.1(@voidzero-dev/vite-plus-core@1.0.0(@types/node@26.6.4)(jiti@2.7.0)(typescript@7.0.2)(yaml@2.9.0))':
     dependencies:
       csstype: 3.2.3
       launch-editor: 2.14.1
