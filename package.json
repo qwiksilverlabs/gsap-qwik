@@ -60,6 +60,6 @@
 	"engines": {
 		"node": ">=24"
 	},
-	"packageManager": "pnpm@12.8.1",
+	"packageManager": "pnpm@12.16.1",
 	"qwik": "./dist/index.qwik.mjs"
 }
